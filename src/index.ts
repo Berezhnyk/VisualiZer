@@ -1,0 +1,1 @@
+export { SimpleSvgChart } from "./simple-svg-chart";

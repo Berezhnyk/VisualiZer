@@ -1,0 +1,49 @@
+{
+  "name": "visualizer",
+  "version": "0.0.1",
+  "description": "Visualizer",
+  "main": "./visualizer.min.js",
+  "typings": "./index.d.ts",
+  "scripts": {
+    "start": "webpack-dev-server --inline",
+    "karma": "karma start",
+    "build": "set NODE_ENV=production && npm run bundle",
+    "build-linux": "NODE_ENV=production && npm run bundle",
+    "bundle": "webpack --mode production",
+    "test": "mocha -r ts-node/register test/**.ts"
+  },
+  "keywords": [
+    "chart",
+    "visual",
+    "data"
+  ],
+  "author": "ivanberezhnyk@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "karma": "^1.5.0",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-mocha": "^1.0.1",
+    "karma-typescript-preprocessor": "^0.3.1",
+    "karma-webpack": "^2.0.3",
+    "rimraf": "^2.5.2",
+    "tslint": "^5.11.0",
+    "tslint-config-prettier": "1.14.0",
+    "tslint-config-standard": "7.1.0",
+    "webpack-dev-server": "^3.1.5",
+    "webpack-watch-server": "^1.2.1"
+  },
+  "dependencies": {
+    "@types/chai": "3.5.2",
+    "@types/mocha": "2.2.48",
+    "chai": "3.5.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mocha": "3.5.3",
+    "ts-loader": "^4.4.2",
+    "ts-node": "^7.0.0",
+    "typescript": "^2.4.0",
+    "uglifyjs-webpack-plugin": "1.2.7",
+    "webpack": "^4.16.2",
+    "webpack-cli": "^3.1.0"
+  }
+}
