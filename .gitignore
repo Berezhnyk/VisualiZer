@@ -1,0 +1,7 @@
+typings/
+node_modules/
+dist/
+lib/
+lib-esm/
+_bundles/
+**/*d.ts
