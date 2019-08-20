@@ -14,7 +14,12 @@ These instructions will get you a copy of the project up and running on your loc
 
 `npm start`
 
+## Demo
+
+See the demo following the [link](https://berezhnyk.github.io/VisualiZer/).
+
 ## Contributing
+
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## License
